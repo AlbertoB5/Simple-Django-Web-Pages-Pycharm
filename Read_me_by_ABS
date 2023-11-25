@@ -1,0 +1,13 @@
+Follow the next steps to start
+
+1
+New project:
+  Write the command django-admin startproject <projectNameOfYourChoice> in the terminal, it will create a new project
+  with the necessary files
+
+Existing Project:
+  cd to the directory where the project is located
+
+
+
+2 - Write the command python manage.py runserver

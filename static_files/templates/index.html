@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main.css'%}">
+</head>
+<body>
+<h1>Home page</h1>
+<p>This page needs some styling!...</p>
+<button onclick="buttonFunc()">Click me</button>
+<img src="{% static '2017-audi-tt-rs.jpg' %}">
+
+<script type="text/javascript" src="{% static 'main.js'%}"></script>
+</body>
+</html>
